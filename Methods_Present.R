@@ -29,6 +29,7 @@ head(test$vertices)
 
 #######
 ## Karate club example
+## Citation: W. W. Zachary, An information flow model for conflict and fission in small groups, Journal of Anthropological Research 33, 452-473 (1977).
 #####
 
 ?layout_with_fr ## first function: define network graph as Fruchterman and Reingold layout
@@ -82,6 +83,7 @@ axis(2)
 
 #######
 ## Les Miserable example
+## Citation: D. E. Knuth, The Stanford GraphBase: A Platform for Combinatorial Computing, Addison-Wesley, Reading, MA (1993).
 #####
 
 load("lesMisKnuth.RData")

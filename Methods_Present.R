@@ -86,7 +86,7 @@ axis(2)
 ## Citation: D. E. Knuth, The Stanford GraphBase: A Platform for Combinatorial Computing, Addison-Wesley, Reading, MA (1993).
 #####
 
-load("lesMisKnuth.RData")
+load("lesMisKnuth.RData") ## make sure this file is in your working directory
 
 lesMisLayout = layout_with_fr(lesMisKnuth, dim = 2, weights = E(lesMisKnuth)$weight)
 
